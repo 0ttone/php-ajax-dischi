@@ -38,3 +38,4 @@
             ]
         ];
 ?>
+<?php var_dump($database);?>

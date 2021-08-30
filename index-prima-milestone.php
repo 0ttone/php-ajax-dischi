@@ -18,7 +18,7 @@
       <?php
       foreach($database as $disc) {?>
 
-            <div class=>
+            <div class="album col">
                   <img src="<?php echo $disc['poster']?>" alt="<?php echo "cover album - {$disc['title']}"?>"
                    <h5><?php echo $disc['title'] ?></h5>
                    <h5><?php echo $disc['author'] ?></h5>
