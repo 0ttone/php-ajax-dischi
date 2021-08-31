@@ -1,0 +1,20 @@
+*{
+      background-color:#1e2d3b ;
+}
+
+
+.album-container{
+      text-align: center;
+      
+}
+
+.inner-album{
+      background-color: #2e3a46;
+      padding: 12px;
+      text-align: center;
+
+}
+
+.poster img{
+      width: 100%;
+}

@@ -4,7 +4,7 @@
                 'title' => 'New Jersey',
                 'author' => 'Bon Jovi',
                 'year' => 1988,
-                'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
+                'poster' => 'https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg'
             ],
             [
                 'title' => 'Live at Wembley 86',
@@ -28,7 +28,7 @@
                 'title' => 'Brave new World',
                 'author' => 'Iron Maiden',
                 'year' => 2000,
-                'poster' => 'https://i.ebayimg.com/images/g/1GwAAOSwFytaKr7l/s-l300.jpg'
+                'poster' => 'https://images-na.ssl-images-amazon.com/images/I/810nSIQOLiL._SY355_.jpg'
             ],
             [
                 'title' => 'One more car, one more rider',
@@ -38,4 +38,4 @@
             ]
         ];
 ?>
-<?php var_dump($database);?>
+ <?php // var_dump($database);?>
