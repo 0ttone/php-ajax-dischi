@@ -14,12 +14,18 @@
       require_once __DIR__ . "/database/database.php";
       ?>
 
+      
+
+      <header>
+            qui logo
+      </header>         
+
       <div class="container"> 
             <div class="row">
 
                   
       
-            <?php
+                  <?php
                   foreach($database as $disc) {?>
 
                   <div class="album-container col-4">
@@ -31,8 +37,8 @@
                               </div>
                               <div class="text-album">
                                     <h5><?php echo $disc['title'] ?></h5>
-                                    <h5><?php echo $disc['author'] ?></h5>
-                                    <h5><?php echo $disc['year'] ?></h5>
+                                    <h6><?php echo $disc['author'] ?></h6>
+                                    <h6><?php echo $disc['year'] ?></h6>
                               </div>
                         </div>
                   </div>
