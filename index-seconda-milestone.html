@@ -22,13 +22,14 @@
                                     <div class="inner-album">
                                           <div class="image-album">
                                                 <div class="poster">
-                                                      <img src="<?php echo $disc['poster']?>" alt="<?php echo "cover album - {$disc['title']}"?>">
+                                                      <img :src="disc.poster"
+                                                       alt="`cover album - ${disc.title}`">
                                                 </div>
                                           </div>
                                           <div class="text-album">
-                                                <h5><?php echo $disc['title'] ?></h5>
-                                                <h6><?php echo $disc['author'] ?></h6>
-                                                <h6><?php echo $disc['year'] ?></h6>
+                                                <h5>{{disc['title']}}></h5>
+                                                <h6>{{disc['author']}}</h6>
+                                                <h6>{{disc['year']}}></h6>
                                           </div>
                                     </div>
                               </div>
